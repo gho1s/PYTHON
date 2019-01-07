@@ -1,0 +1,17 @@
+from datetime import date
+#Robert Gholson
+#EX #3
+#November 12, 2017
+# input what is your name
+name = input("What is your name ")
+# input born year
+bornyear = int(input("bornyear"))
+# input born month
+bornmonth = int(input("bornmonth"))
+# input born day
+bornday = int(input("bornday"))
+# get today current date
+today = date.today()
+
+print((today.year - bornyear)-((today.month, today.day) < (bornmonth, bornday)))
+
